@@ -148,22 +148,22 @@ ec2:TerminateInstances
 ## 5. Screenshots
 
 ### IAM Permissions
-![IAM Permissions](Screenshot\01_IAM_Policy_Configuration.png)
+![IAM Permissions](Screenshot/01_IAM_Policy_Configuration.png)
 
 ### S3 Bucket Created
-![S3 Bucket](Screenshot\02_S3_Bucket_Creation.png)
+![S3 Bucket](Screenshot/02_S3_Bucket_Creation.png)
 
 ### S3 File Upload
-![S3 File Upload](Screenshot\03_S3_File_Upload_Terminal.png)
+![S3 File Upload](Screenshot/03_S3_File_Upload_Terminal.png)
 
 ### S3 List Buckets
-![S3 List Buckets](Screenshot\04_S3_List_Buckets_Terminal.png)
+![S3 List Buckets](Screenshot/04_S3_List_Buckets_Terminal.png)
 
 ### EC2 Instance Running
-![EC2 Running](Screenshot\08_EC2_Console_Instance_Running.png)
+![EC2 Running](Screenshot/08_EC2_Console_Instance_Running.png)
 
 ### EC2 Instance Information
-![S3 upload Information](Screenshot\07_S3_Console_Upload_Verification.png)
+![S3 upload Information](Screenshot/07_S3_Console_Upload_Verification.png)
 
 ---
 
@@ -308,7 +308,7 @@ Instance state transitions when stopping:
 running -> stopping -> stopped
 ```
 
-> ⚠️ **Warning:** EC2 termination is destructive. A terminated instance cannot normally be restarted.
+
 
 ### Security Best Practices
 
@@ -345,17 +345,3 @@ __pycache__/
 
 ---
 
-## 8. Future Enhancements
-
-- Automatic AMI discovery
-- Automatic key pair selection
-- Automatic security group selection
-- EC2 instance type selection
-- EC2 instance tagging
-- CloudWatch monitoring
-
----
-
-## Conclusion
-
-The **AWS Resource Automation Tool** shows how Python and Boto3 can automate everyday AWS tasks. It provides a practical foundation for building more advanced AWS automation and cloud management applications.
